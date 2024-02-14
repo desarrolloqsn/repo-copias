@@ -21,4 +21,4 @@
 # d - git push origin master (para enviar los cambios a github)
 
 # PARA DEPLOYAR EN VERCEL
-#  -> https://vercel.com : verificamos que estamos en la cuenta pro de qsocial damos a -> add new -> project -> import git -> importamos nuestro proyecto -> proyect name -> framewok (Create React App) -> build and Output Settings (damos al boton de "OVERRIDE" y dentro del input escribimos " CI= npm run build" y guardamos-> Enviroment Variables (creamos estas tres variables NODE_OPTIONS  --max-old-space-size=4096, GENERATE_SOURCEMAP  false, CI= false) -> deployd
+#  -> https://vercel.com : verificamos que estamos en la cuenta pro de qsocial damos a -> add new -> project -> import git -> importamos nuestro proyecto -> proyect name -> framewok (Create React App) -> build and Output Settings (damos al boton de "OVERRIDE" y dentro del input escribimos " CI= npm run build" y guardamos)-> Enviroment Variables (creamos estas tres variables NODE_OPTIONS  --max-old-space-size=4096, GENERATE_SOURCEMAP  false, CI= false) -> deployd
