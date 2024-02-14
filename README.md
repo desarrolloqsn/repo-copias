@@ -1,10 +1,10 @@
 # PROCEDIMIENTO PARA DEJAR EL REPOSITORIO LISTO
 
-## 1 - MODIFICAMOS EL NOMBRE DEL DASHBOARD:  Una vez Clonado el repositorio y abierto el proyecto en nuestro ide debemos ir a la carpeta contenedores/Dashboard/Filtro 
-### alli cambiaremos el nombre del dashboard en la linea 533  y guardamos los cambios 
+## 1 - MODIFICAMOS EL NOMBRE DEL DASHBOARD:  
+###  Una vez Clonado el repositorio y abierto el proyecto en nuestro ide debemos ir a la carpeta contenedores/Dashboard/Filtro alli cambiaremos el nombre del dashboard en la linea 533  y guardamos los cambios 
 
-## 2 - MODIFICAMOS EL USUARIO Y CONTRASEÑA : para modificar el usuario y contraseña nos debemos dirigir a -> /componentes/Formularios/index.jsx en la linea 29
-### modificamos el usuario y la contraseña y guardamos los cambios con ctrl + s
+## 2 - MODIFICAMOS EL USUARIO Y CONTRASEÑA : 
+### para modificar el usuario y contraseña nos debemos dirigir a -> /componentes/Formularios/index.jsx en la linea 29 modificamos el usuario y la contraseña y guardamos los cambios con ctrl + s
 
 ## 3 :  MODIFICAMOS LA DIRECCION DE LOS GRAFOS: 
 ### a -> src/componentes/Graficos/GrafoComunidadesEnRedes.jsx en la linea 281 https://qsngrafos.vercel.app/comunidades/+id_cliente 
@@ -13,7 +13,7 @@
 ### d -> src/componentes/Graficos/grafoPalabrasMasFrecuentes.jsx en las lineas 209,219,228,246,256 y 266 modificar https://qsngrafos.vercel.app/palabras/+id_cliente
 ### e -> src/componentes/Graficos/GrafosModelos.jsx en las lineas 64,74,84,95,105,115 https://qsngrafos.vercel.app/palabras/+id_cliente
 
-## comandos basicos para commitear y pushear en git
+## COMANDOS BASICOS PAR COMITEAR Y PUSHEAR EN GITHUB
 ### ctrl + shift + ñ (para abrir terminal)
 ### a- git pull (para asegurarnos de traernos los cambios  que otros pueden haber subido)
 ### b- git add . (para agregar todos los archivos que hemos modificado)
